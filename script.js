@@ -66,6 +66,7 @@ function restartGame(){
     restartButton.addEventListener('click', () => { window.location.reload() });
     gridDisplay.append(restartButton);
 }
+
 function checkMatch(){
     if(chosenCards[0].name === chosenCards[1].name){
         chosenCards.forEach(card => {
@@ -112,12 +113,8 @@ function generateCards(){
 }
 
 function main(){
-    if(pairCards === score){
-        
-    }else{
-        generateCards();
-        slider.addEventListener('input', (e) => handleSliderChange(e.target.value));
-    }
+    generateCards();
+    slider.addEventListener('input', (e) => handleSliderChange(e.target.value));
 }
 
 main()
