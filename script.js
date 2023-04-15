@@ -42,6 +42,8 @@ const handleSliderChange = (value) => {
     sliderValueDisplay.innerHTML = value;
     pairCards = value;
     gameCardsArray = generatePairCards(cardsArray.slice(0, pairCards));
+    score = 0;
+    scoreDisplay.textContent = score;
     generateCards();
 }
 
