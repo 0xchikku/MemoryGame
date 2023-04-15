@@ -35,7 +35,7 @@ The game also includes a score counter, a reset button to start a new game, and 
 ![Start of Gameplay screenshot](./assets/startOfTheGame.png)
 ![No Match screenshot](./assets/NoMatch.png)
 ![When Match screenshot](./assets/WhenMatch.png)
-![End of Gameplay screenshot](./assets/EndOfGame.png)
+![End of Gameplay screenshot](./assets/EndOFGame.png)
 
 ## Features
 
